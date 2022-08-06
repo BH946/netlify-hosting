@@ -4,9 +4,8 @@
 * `gabia` 에서 **도메인(`.shop`)** 사용
   * `gabia` 의 DNS를 `netlify` 에서 연동해서 사용할 수 있지만
   * 더 좋은 방법은 `netlify` 의 DNS를 사용하게 하는것이다. => 이방법을 이용하였다. 
-* `테스트 사이트` : https://bhcoding.shop
-* `SEO 추천 사이트` : [SEOCHECK](https://seositecheckup.com/)
-* `관련 블로그 포스팅` : [도메인&SEO](https://bh946.github.io/knowledge/webprogramming/도메인,-SEO,-구글-애널리틱스-사용법)
+* `검색엔진 네이버, 구글` 등록 및 간단히 최적화
+* `구글 애널리스트` 연동
 
 <br>
 
@@ -19,9 +18,16 @@
   * `index.html` 에 태그 추가해서 적용
 * [/public/naver84732875cf80e8b5615afc1bbdb3cc3a.html](/public/naver84732875cf80e8b5615afc1bbdb3cc3a.html)
   * `네이버 검색엔진` 등록에서 소유자 인증할 때 사용된 파일
+  * `구글 검색엔진` 은 소유자 인증 방식이 이 방식이아니고, `netlify` 의 DNS에서 수행함
 * [/public/robots.txt](/public/robots.txt)
   * SEO를 위해 추가
 * [/public/sitemap.xml](/public/sitemap.xml)
   * SEO를 위해 추가
 
+<br>
 
+## URL
+
+* `테스트 진행한 사이트` : https://bhcoding.shop
+* `SEO 추천 사이트` : [SEOCHECK](https://seositecheckup.com/)
+* `관련 블로그 포스팅` : [도메인&SEO](https://bh946.github.io/knowledge/webprogramming/도메인,-SEO,-구글-애널리틱스-사용법)
